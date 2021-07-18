@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-image{
+    margin-right: 15px;
+}
+
+.container-formulario{
+    width: 400px;
+    height: 500px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-left: 25px;
+    align-items: center;
+    height: 45px;
+    width: 345px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px silver solid;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button{
+    margin-left: 25px;
+    font-size: 15px;
+    color: #ffffff;
+    align-items: center;
+    height: 45px;
+    width: 345px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:#00ca00;
+    border: 1px silver solid;
+
+}
